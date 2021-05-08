@@ -16,7 +16,6 @@ Node(){
     parent=0;
  }
 };
-
 void bubbleSort(int frequency[], char letter[], int n)
 {
     int i, j;
@@ -31,9 +30,6 @@ void bubbleSort(int frequency[], char letter[], int n)
                 letter[j+1] = tempChar;
             }
 }
- 
-
-
 int main(){
     char letter[]={'n','h','s','d','.','i','v','g','l','o','e','a','r','$','t','m','p'};
     int frequency[]={8,4,2,1,1,5,2,3,5,5,12,6,7,14,7,4,4};
